@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Inventory
+comment0.text=\r\n\ This\ \ inventory\ class\ keeps\ track\ of\ the\ Item\ objects\ being\ stored\ within\ the\ hashmap\r\n\ It\ also\ keeps\ track\ of\ the\ number\ of\ items\ in\ the\ \ invetory\ as\ well\ as\ their\ combined\ weight\ and\ \ the\ maximum\ weight\ of\ the\ \r\n\ invetory\ as\ set\ out\ by\ the\ constructor.\r\n\r\n\ @author\ Charlie\ Madigan\ (K19019003)\r\n\ @version\ 201119\r\n
+comment1.params=maximumWeight
+comment1.target=Inventory(int)
+comment2.params=item
+comment2.target=void\ addItemToInventory(Item)
+comment2.text=\r\n\ this\ method\ takes\ on\ parameter\ of\ type\ Item\r\n\ The\ purpose\ of\ this\ method\ is\ to\ add\ the\ Item\ passed\ to\ it\ in\ the\ parameters\ to\ the\ inventorys\ items\r\n\ The\ method\ first\ checks\ to\ see\ if\ this\ items\ weight\ combined\ with\ the\ inventorys\ total\ weight,\ is\ \ larger\ than\ the\ maximum\ weight\r\n\ if\ so\ the\ item\ isnt\ added\ and\ the\ player\ is\ notified.\r\n\ if\ its\ not\ than\ the\ item\ is\ added\ to\ the\ inventory\ and\ the\ game\ tells\ the\ player\ \ its\ been\ added.\r\n
+comment3.params=
+comment3.target=void\ displayInventory()
+comment3.text=\r\n\ this\ method\ take\ no\ parameters\ and\ goes\ through\ \ the\ list\ of\ items\ \ and\ output\ the\ name\ of\ each\ item\ to\ the\ console\ along\r\n\ with\ its\ weight.\r\n
+comment4.params=name
+comment4.target=boolean\ findInventoryItem(java.lang.String)
+comment4.text=\r\n\ this\ method\ takes\ one\ string\ as\ the\ parameter.\r\n\ It\ goes\ through\ the\ list\ of\ items\ and\ checks\ to\ see\ if\ an\ object\ of\ type\ Item\ exists\ in\ \ the\ list\ with\ a\ name\ the\ same\r\n\ as\ the\ parameter,\ if\ not\ a\ false\ boolean\ is\ returned,\ if\ it\ is\ in\ there,\ than\ a\ true\ boolean\ is\ returned.\r\n
+numComments=5
